@@ -1,14 +1,70 @@
 body{
-    width:100%;
-
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color:white;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url("https://preview.redd.it/mcdonalds-factory-wallpaper-v0-9aqyo6j02sia1.jpg?width=640&crop=smart&auto=webp&s=b2b957ca0241e2f589e826ccf1b44062770b4a0d");
+      
 }
+
+#title, #description{
+margin: 1em auto;
+text-align: center;
+color:black;
+}
+
+p{
+    margin-left:2em;
+}
+
 form{
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
-    margin: auto;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background: rgba(255, 165, 0, 0.7);
 }
+
+fieldset{
+    border:none;
+    padding: 1rem 0;
+    border-bottom: 3px dotted orange;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
 label{
     display: block;
-    margin: 0.5rem 0;
+    margin: 0.5rem 2rem;
+
 }
+
+input, select, textarea{
+    min-height: 2em;
+}
+
+#name,#email,#number,#textarea,#dropdown{
+    width: 90%;
+    margin-top: 0.3rem;
+}
+
+.input-checkbox,.radio{
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #ddc40cba;
+    border-color: rgba(255, 255, 255, 0.592);
+    min-width: 300px;
+  }
