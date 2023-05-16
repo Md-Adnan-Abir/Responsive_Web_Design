@@ -7,12 +7,28 @@
 </head>
 <body>
     <h1 id="title">McDonald's Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us improve the customer service</p>
+    <p id="description">Thank you for taking the time to help us improve the Hamburgers Quality </p>
     <form id="survey-form">
         <fieldset>
             <label for="name" id="name-label">Name: <Input type="text" id="name" name="name" required /> </label>
             <label for="email" id="email-label">Email: <input type="email" id="email" name="email" required></label>
             <label for="number" id="number-label">Phone Number: <input type="number" id="number" name="number" minlength="11" maxlength="13" required></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="dropdown" id="dropdown-label"> Which Hamburger you like most: 
+                <select name="dropdown" id="dropdown" required >
+                    <option value="">Select one</option>
+                    <option value="1">Hamburger</option>
+                    <option value="2">Double Cheeseburger</option>
+                    <option value="3">Triple Cheeseburger</option>
+                    <option value="4">Big Mac</option>
+                    <option value="5">Big N' Tasty</option>
+                    <option value="6">Bacon McDouble</option>
+                    <option value="7">Daily Double</option>
+                    <option value="8">McFeast</option>
+                </select>
+            </label>
         </fieldset>
     </form>
 </body>
