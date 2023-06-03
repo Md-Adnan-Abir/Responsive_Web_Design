@@ -1,0 +1,29 @@
+#image{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+h1, p{
+    color: white;
+    text-align: center;
+    margin: 2px;
+}
+figure{
+    padding-top: 60px;
+    
+}
+figure, div{
+    max-width: 80%;
+    margin: 0 auto;
+}
