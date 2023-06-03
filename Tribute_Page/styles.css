@@ -21,9 +21,22 @@ h1, p{
 }
 figure{
     padding-top: 60px;
+    padding-bottom: 50px;
     
 }
 figure, div{
     max-width: 80%;
     margin: 0 auto;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.timeline li{
+    padding-bottom: 10px;
+}
+
+footer{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
 }
