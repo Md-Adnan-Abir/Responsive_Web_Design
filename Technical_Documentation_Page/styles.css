@@ -67,7 +67,7 @@ code{
     border-radius: 5px;
 }
 
-h1{
+#navbar header {
     text-align: center;
     font-style: italic;
     border-style: dashed;
